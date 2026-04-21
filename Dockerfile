@@ -1,4 +1,4 @@
-FROM php:8.5.5-apache
+FROM php:8.5.5-cli-alpine3.23
 
 RUN docker-php-ext-install pdo_mysql
 RUN a2enmod rewrite
